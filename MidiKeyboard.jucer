@@ -26,9 +26,9 @@
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX" xcodeValidArchs="arm64,x86_64" iosDevelopmentTeamID="4JJ4Z2793H">
       <CONFIGURATIONS>
-        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="MidiKeybaoard"
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="MidiKeyboard"
                        codeSigningIdentity="Developer ID Application"/>
-        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="MidiKeybaoard"
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="MidiKeyboard"
                        codeSigningIdentity="Developer ID Application"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
