@@ -102,10 +102,13 @@
         <MODULEPATH id="juce_gui_extra" path=""/>
       </MODULEPATHS>
     </ANDROIDSTUDIO>
-    <XCODE_IPHONE targetFolder="Builds/iOS" customXcodeResourceFolders="/Users/pitchinnovations/Documents/Repositories/JUCE/examples/Assets">
+    <XCODE_IPHONE targetFolder="Builds/iOS" customXcodeResourceFolders="/Users/pitchinnovations/Documents/Repositories/JUCE/examples/Assets"
+                  iosBackgroundAudio="1" iosBackgroundBle="1" iosDevelopmentTeamID="4JJ4Z2793H">
       <CONFIGURATIONS>
-        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="MidiDemo"/>
-        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="MidiDemo"/>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="MidiKeyboard"
+                       codeSigningIdentity="Developer ID Application"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="MidiKeyboard"
+                       codeSigningIdentity="Developer ID Application"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_audio_basics" path=""/>
