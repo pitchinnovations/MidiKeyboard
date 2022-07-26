@@ -1,0 +1,78 @@
+*.user
+*.cbp
+Makefile
+/build
+/build*
+/out
+.vs
+CMakeSettings.json
+
+*.zip
+*.pkg
+
+**/VisualStudio2017/.vs
+**/VisualStudio2017/x64
+**/VisualStudio2019/.vs
+**/VisualStudio2019/x64
+**/MacOSX/build/Release
+**/MacOSX/build/Debug
+**/iOS/build/Release
+**/iOS/build/Debug
+**/MacOSX/.idea/
+*/Builds/*
+/Builds/
+cmake-build*
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+CMakeScripts
+
+.idea
+
+IDEWorkspaceChecks.plist
+UserInterfaceState.xcuserstate
+xcschememanagement.plist
+*.xcscheme
+.vscode
+*.xcworkspace
+*.DS_Store
+
+workspace.xml
+xcuserdata
+/SDKs/FRUT
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+JuceLibraryCode/BinaryData2.cpp
+JuceLibraryCode/BinaryData.cpp
+JuceLibraryCode/BinaryData.h
